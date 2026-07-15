@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - THE DAILY NIGHT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-moon"></i> THE DAILY NIGHT
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Menu</h1>
+        <p>Crafted with Passion, Served with Excellence</p>
+    </section>
+
+    <!-- Menu Filter -->
+    <section class="menu-filter">
+        <div class="container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="espresso">Espresso</button>
+            <button class="filter-btn" data-filter="specialty">Specialty</button>
+            <button class="filter-btn" data-filter="cold">Cold Brew</button>
+            <button class="filter-btn" data-filter="non-coffee">Non-Coffee</button>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu">
+        <div class="container">
+            <!-- Espresso Drinks -->
+            <div class="menu-category" data-category="espresso">
+                <h2>Espresso Drinks</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/espresso.jpg" alt="Classic Espresso">
+                        <h3>Classic Espresso</h3>
+                        <p class="description">Double shot of rich, bold espresso</p>
+                        <p class="price">₹150</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/americano.jpg" alt="Americano">
+                        <h3>Americano</h3>
+                        <p class="description">Espresso diluted with hot water for a smooth taste</p>
+                        <p class="price">₹180</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/macchiato.jpg" alt="Macchiato">
+                        <h3>Macchiato</h3>
+                        <p class="description">Espresso topped with a small amount of steamed milk</p>
+                        <p class="price">₹200</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/cortado.jpg" alt="Cortado">
+                        <h3>Cortado</h3>
+                        <p class="description">Equal parts espresso and steamed milk</p>
+                        <p class="price">₹200</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Specialty Coffees -->
+            <div class="menu-category" data-category="specialty">
+                <h2>Specialty Coffees</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/cappuccino.jpg" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
+                        <p class="description">Equal parts espresso, steamed milk, and foam</p>
+                        <p class="price">₹250</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/latte.jpg" alt="Latte">
+                        <h3>Caffe Latte</h3>
+                        <p class="description">Rich espresso with velvety steamed milk</p>
+                        <p class="price">₹250</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/mocha.jpg" alt="Mocha">
+                        <h3>Mocha</h3>
+                        <p class="description">Espresso with steamed milk and chocolate</p>
+                        <p class="price">₹280</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/flat-white.jpg" alt="Flat White">
+                        <h3>Flat White</h3>
+                        <p class="description">Bold espresso with microfoam steamed milk</p>
+                        <p class="price">₹270</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/affogato.jpg" alt="Affogato">
+                        <h3>Affogato</h3>
+                        <p class="description">Vanilla gelato topped with hot espresso</p>
+                        <p class="price">₹300</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/irish-coffee.jpg" alt="Irish Coffee">
+                        <h3>Irish Coffee</h3>
+                        <p class="description">Coffee, Irish whiskey, sugar, and whipped cream</p>
+                        <p class="price">₹350</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cold Brew -->
+            <div class="menu-category" data-category="cold">
+                <h2>Cold Brew & Iced Coffee</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/iced-coffee.jpg" alt="Iced Coffee">
+                        <h3>Iced Coffee</h3>
+                        <p class="description">Chilled espresso with ice and milk</p>
+                        <p class="price">₹220</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/cold-brew.jpg" alt="Cold Brew">
+                        <h3>Cold Brew</h3>
+                        <p class="description">Smooth, slow-steeped cold coffee</p>
+                        <p class="price">₹240</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/iced-latte.jpg" alt="Iced Latte">
+                        <h3>Iced Latte</h3>
+                        <p class="description">Cold espresso with chilled milk and ice</p>
+                        <p class="price">₹260</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/iced-mocha.jpg" alt="Iced Mocha">
+                        <h3>Iced Mocha</h3>
+                        <p class="description">Cold espresso, milk, chocolate, and ice</p>
+                        <p class="price">₹290</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Non-Coffee -->
+            <div class="menu-category" data-category="non-coffee">
+                <h2>Non-Coffee Beverages</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/chai-latte.jpg" alt="Chai Latte">
+                        <h3>Chai Latte</h3>
+                        <p class="description">Aromatic spiced chai with steamed milk</p>
+                        <p class="price">₹220</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/hot-chocolate.jpg" alt="Hot Chocolate">
+                        <h3>Hot Chocolate</h3>
+                        <p class="description">Rich, creamy hot chocolate with whipped cream</p>
+                        <p class="price">₹240</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/green-tea.jpg" alt="Green Tea">
+                        <h3>Green Tea Latte</h3>
+                        <p class="description">Matcha green tea with steamed milk</p>
+                        <p class="price">₹260</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/smoothie.jpg" alt="Smoothie">
+                        <h3>Fruit Smoothie</h3>
+                        <p class="description">Fresh fruit blend with yogurt</p>
+                        <p class="price">₹280</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offerings -->
+    <section class="special-offerings">
+        <div class="container">
+            <h2>Our Special Offerings</h2>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Seasonal Specials</h3>
+                    <p>Unique flavors crafted with seasonal ingredients</p>
+                </div>
+                <div class="offering-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Organic Options</h3>
+                    <p>Chemical-free, sustainably sourced coffee</p>
+                </div>
+                <div class="offering-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Pastries & Snacks</h3>
+                    <p>Fresh baked goods to complement your coffee</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <h2>Ready to Order?</h2>
+        <p>Visit us today or make a reservation</p>
+        <a href="contact.html" class="cta-button-dark">Book Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>THE DAILY NIGHT</h3>
+                    <p>Your luxury coffee destination</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <p>Morning: 10 AM - 5 PM<br>Night: 6 PM - 5 AM</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Shop No. 22, Science Empire<br>New Naroda, Ahmedabad</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 THE DAILY NIGHT. All rights reserved. | Luxury Coffee Cafe, Ahmedabad</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
